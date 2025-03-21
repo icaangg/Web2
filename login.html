@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnoTech - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+    <div class="login-box">
+        <div class="login-left">
+            <img src="logo3.png" alt="InnoTech Logo" class="login-logo">
+        </div>
+        <div class="login-right">
+            <h2 class="login-title">INNOTECH</h2>
+            <p class="sub-title">Register and join us as we explore the limitless possibilities of technology!</p>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter Username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter Password" required>
+
+                <button type="submit">Login</button>
+                <p id="loginError" class="error-message"></p>
+            </form>
+            <p class="terms">
+                By using this service, you confirm that you have <br> read and accepted the 
+                <a href="#">InnoTech Online Services Terms of Use</a> and <a href="#">Privacy Policy</a>.
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

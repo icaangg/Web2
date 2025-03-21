@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnoTech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="logo3.png" alt="InnoTech Logo">
+                <span>InnoTech</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" onclick="maincontent('home')" >HOME</a></li>
+                    <li><a href="#c-lang" onclick="maincontent('c-lang')">C LANGUAGE</a></li>
+                    <li><a href="#python" onclick="maincontent('python')">PYTHON</a></li>
+                    <li><a href="#html" onclick="maincontent('html')">HTML</a></li>
+                    <li><a href="#javascript" onclick="maincontent('java')">JAVASCRIPT</a></li>
+                    <li><a href="#php" onclick="maincontent('php')">PHP</a></li>
+                    <li><a href="#about" onclick="maincontent('about')">ABOUT</a></li>
+                </ul>
+            </nav>
+        </div> 
+    </header>
+
+    <main>
+        <section id="content" class="maincon"></section>
+       
+        <div class="container">
+            <aside id="sidebar">
+                <h3 id="sidebar-title">C Language</h3>
+                <div id="sidebar-content"></div>
+            </aside>
+
+            <aside id="projects-sidebar">
+                <h4>Projects</h4>
+                <div class="project-item" onclick="loadProject('cat')">Cat API</div>
+                <div class="project-item" onclick="loadProject('dog')">Dog API</div>
+                <div class="project-item" onclick="loadProject('quotes')">Quotes API</div>
+            </aside>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <nav>
+                <ul>
+                    <li><a href="#home" onclick="maincontent('home')">HOME</a></li>
+                    <li><a href="#about" onclick="maincontent('about')">ABOUT</a></li>
+                </ul>
+            </nav>
+            <div class="footer-bottom">
+                <p>Contact Info: +639-1234-5678</p>
+                <p>All rights Reserved. Innotech (2025)</p>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/icaanggg">
+                    <img src="fb.png" alt="Facebook"></a>
+                <a href="https://x.com/meowwieee__">
+                    <img src="twt.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/iicaaaangg/">
+                    <img src="ig.png" alt="Instagram"></a>
+                <a href="https://www.youtube.com/@icaanggg">
+                    <img src="yt.png" alt="YouTube"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
